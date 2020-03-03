@@ -1,0 +1,41 @@
+package demopr;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.server.handler.GetTitle;
+
+public class naukri {
+	String path;
+	WebDriver driver;
+	public void declr() {
+		
+		path=System.getProperty("user.dir")+"//Cdriver//chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver",path);
+		driver=new ChromeDriver();
+		driver.get("https://www.naukri.com/");
+		//driver.findElement(By.xpath("/html/body/a"));
+		Set<String> sel=driver.getWindowHandles();
+		Iterator<String> it=sel.iterator();
+		
+		String parentWindowtitle=it.next();
+		System.out.println(parentWindowtitle);
+		
+		String childWindowId=it.next();
+		System.out.println(childWindowId);
+		driver.switchTo().window(childWindowId);
+		String title=driver.getTitle();
+		System.out.println(title);
+		driver.close();
+		
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		naukri oo= new naukri();
+		oo.declr();
+	}}

@@ -1,0 +1,22 @@
+package demo;
+
+public class Stringhom {
+
+	public static void main(String[] args) {
+		String S1="Whats a matter son your notebooks are still uncovered";
+		System.out.println(S1);
+		int size=0;
+		for(int i=0;i<=S1.length()-1;i++)
+		{
+			if(S1.charAt(i) == 's') {
+			size++;	
+			}
+		}
+		
+		System.out.println("Number of time S char occur "+size);
+		// TODO Auto-generated method stub
+
+	}
+
+}
+ 

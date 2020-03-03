@@ -1,0 +1,17 @@
+package demo;
+
+public class vow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String St="What is going on";
+        char arr[]= {'a','e','i','o','u'};
+        String s=new String(arr);
+        for(int i=0;i<St.length();i++)
+        {
+        	if(St==s)
+        	{System.out.println(s);
+        }
+	}
+
+}}

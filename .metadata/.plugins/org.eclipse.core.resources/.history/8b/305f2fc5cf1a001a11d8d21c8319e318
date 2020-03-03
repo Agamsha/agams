@@ -1,0 +1,13 @@
+package demo;
+
+public class Stringhom {
+
+	public static void main(String[] args) {
+		String S1="Whats a matter son your notebooks are still uncovered";
+		System.out.println(S1);
+		char ch=S1.charAt(3);
+		// TODO Auto-generated method stub
+
+	}
+
+}

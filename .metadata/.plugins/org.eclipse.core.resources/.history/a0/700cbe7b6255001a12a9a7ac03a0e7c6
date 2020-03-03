@@ -1,0 +1,26 @@
+package demopr;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class naukri {
+	String path;
+	WebDriver driver;
+	public void declr() {
+		
+		path=System.getProperty("user.dir")+"//Cdriver//chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver",path);
+		driver=new ChromeDriver();
+		driver.get("https://www.naukri.com/");
+		driver.findElement(By.linkText("http://w28.naukri.com/advertiser/bms_hits.php?banner=7303364")).click();
+		
+		
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		naukri oo= new naukri();
+		oo.declr();
+	}}

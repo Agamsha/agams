@@ -1,0 +1,22 @@
+package len;
+
+public class length {
+	String de="Sohamanbv  ";
+	public void le() {
+		int  count=de.length();
+		System.out.println("length os String="+count);
+		if(de.contains("h"))
+		{System.out.println("It contains char");
+		}
+		else
+		{System.out.println("doesnot contain");
+		}
+	}
+
+	public static void main(String[] args) {length oo= new length();
+	oo.le();
+		// TODO Auto-generated method stub
+
+	}
+
+}

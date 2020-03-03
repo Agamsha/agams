@@ -1,0 +1,25 @@
+package testngde;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class naukri {
+	String path;
+	WebDriver driver;
+	public void declr() {
+		
+		path=System.getProperty("user.dir")+"//Cdriver//chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver",path);
+		driver=new ChromeDriver();
+		driver.get("https://www.naukri.com/");
+		
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		naukri oo= new naukri();
+		oo.declr();
+	}}
+
+

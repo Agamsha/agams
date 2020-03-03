@@ -1,0 +1,19 @@
+package len;
+
+public class ret {
+	String St="AGAM SHARMA";
+	String S2="Sgarm";
+	public void der()
+	{
+		String S3=St.concat(S2);
+		System.out.println(S3);
+		System.out.println(S3.substring(5));
+	}
+
+	public static void main(String[] args) {ret oo=new ret();
+	oo.der();
+		// TODO Auto-generated method stub
+
+	}
+
+}

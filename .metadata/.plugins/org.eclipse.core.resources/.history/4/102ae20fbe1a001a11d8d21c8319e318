@@ -1,0 +1,32 @@
+
+package demo;
+import java.util.Scanner;
+
+public class arra {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int size;
+		int []arr;
+		int temp;
+		Scanner Sc=new Scanner(System.in);
+		System.out.println("Enter size");
+		size=Sc.nextInt();
+		arr=new int[size];
+		System.out.println("Enter array");
+		for(int i=0;i<size;i++)
+		{
+		arr[i]=Sc.nextInt()	;
+		}
+		for(int i=0;i<size;i++) {
+			for(int j=i+1;j<size;j++)
+			{if(arr[i]==arr[j])
+			{
+				System.out.println(arr[i]);
+			}
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package len;
+
+public class vocount {
+	String St="Pooja Garg";
+	int vowels=0;
+	public void Vowe() {
+		
+		for(int i=0;i<=St.length();i++) {
+			char St1=St.charAt(i);
+			if( St1=="a")
+				{++vowels;
+				}
+			else
+			{System.out.println(" ");
+				}
+			System.out.println("No of vowels"+vowels);
+			
+	}}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

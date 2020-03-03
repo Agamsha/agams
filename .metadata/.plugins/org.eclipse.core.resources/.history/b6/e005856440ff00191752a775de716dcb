@@ -1,0 +1,15 @@
+package len;
+
+public class length {
+	String de="Sohamanbv";
+	public void le() {
+		int  count=de.length();
+		System.out.println("length os String="+count);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

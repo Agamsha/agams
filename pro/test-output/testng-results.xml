@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62" started-at="2020-02-22T15:54:30 IST" finished-at="2020-02-22T15:54:30 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="62" started-at="2020-02-22T15:54:30 IST" finished-at="2020-02-22T15:54:30 IST">
+      <class name="demopr.loginte">
+        <test-method status="FAIL" signature="Driverinfo(java.lang.String)[pri:0, instance:demopr.loginte@1d16f93d]" name="Driverinfo" is-config="true" duration-ms="-1582367070271" started-at="2020-02-22T15:54:30 IST" finished-at="1970-01-01T05:30:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'ChromeBrowser' is required by BeforeSuite on method Driverinfo but has not been marked @Optional or defined
+in C:\Users\user\eclipse-workspace\pro\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'ChromeBrowser' is required by BeforeSuite on method Driverinfo but has not been marked @Optional or defined
+in C:\Users\user\eclipse-workspace\pro\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:345)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driverinfo -->
+        <test-method status="SKIP" signature="fgpassword()[pri:0, instance:demopr.loginte@1d16f93d]" name="fgpassword" is-config="true" duration-ms="-1582367070302" started-at="2020-02-22T15:54:30 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fgpassword -->
+        <test-method status="SKIP" signature="CheckTitle()[pri:0, instance:demopr.loginte@1d16f93d]" name="CheckTitle" duration-ms="0" started-at="2020-02-22T15:54:30 IST" finished-at="2020-02-22T15:54:30 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'ChromeBrowser' is required by BeforeSuite on method Driverinfo but has not been marked @Optional or defined
+in C:\Users\user\eclipse-workspace\pro\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'ChromeBrowser' is required by BeforeSuite on method Driverinfo but has not been marked @Optional or defined
+in C:\Users\user\eclipse-workspace\pro\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:345)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTitle -->
+        <test-method status="SKIP" signature="login()[pri:0, instance:demopr.loginte@1d16f93d]" name="login" is-config="true" duration-ms="-1582367070353" started-at="2020-02-22T15:54:30 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="Close_Browser()[pri:0, instance:demopr.loginte@1d16f93d]" name="Close_Browser" is-config="true" duration-ms="-1582367070434" started-at="2020-02-22T15:54:30 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- demopr.loginte -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

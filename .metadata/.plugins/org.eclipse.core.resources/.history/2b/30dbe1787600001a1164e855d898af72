@@ -1,0 +1,17 @@
+package len;
+
+public class happy {
+	String St="Happy New Year";
+	
+	public void year ()
+	{
+		String Supper=St.toUpperCase();
+		System.out.println(Supper);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

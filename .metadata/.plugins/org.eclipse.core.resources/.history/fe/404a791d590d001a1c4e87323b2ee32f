@@ -1,0 +1,10 @@
+package demo;
+
+public class var {int a=12;
+
+	public static void main(String[] args) {System.out.println(a);
+		// TODO Auto-generated method stu
+
+	}
+
+}

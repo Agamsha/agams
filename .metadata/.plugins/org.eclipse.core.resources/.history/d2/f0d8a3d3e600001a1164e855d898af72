@@ -1,0 +1,16 @@
+package len;
+
+public class ret {
+	String St="AGAM SHARMA";
+	public void der()
+	{
+		int index1=St.indexOf("A");
+		System.out.println(index1);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

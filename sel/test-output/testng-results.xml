@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+      <class name="TestNg.Driver">
+        <test-method status="PASS" signature="beforedemo()[pri:0, instance:TestNg.Driver@3e9b1010]" name="beforedemo" is-config="true" duration-ms="18" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforedemo -->
+        <test-method status="PASS" signature="bfrclass()[pri:0, instance:TestNg.Driver@3e9b1010]" name="bfrclass" is-config="true" duration-ms="0" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrclass -->
+        <test-method status="PASS" signature="bfm()[pri:0, instance:TestNg.Driver@3e9b1010]" name="bfm" is-config="true" duration-ms="0" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfm -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestNg.Driver@3e9b1010]" name="launch" duration-ms="5" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="afm()[pri:0, instance:TestNg.Driver@3e9b1010]" name="afm" is-config="true" duration-ms="0" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afm -->
+        <test-method status="PASS" signature="bfm()[pri:0, instance:TestNg.Driver@3e9b1010]" name="bfm" is-config="true" duration-ms="1" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfm -->
+        <test-method status="PASS" signature="driverInfo()[pri:1, instance:TestNg.Driver@3e9b1010]" name="driverInfo" duration-ms="1" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInfo -->
+        <test-method status="PASS" signature="aftr()[pri:0, instance:TestNg.Driver@3e9b1010]" name="aftr" is-config="true" duration-ms="0" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftr -->
+        <test-method status="PASS" signature="afm()[pri:0, instance:TestNg.Driver@3e9b1010]" name="afm" is-config="true" duration-ms="0" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afm -->
+        <test-method status="PASS" signature="afterDemo()[pri:0, instance:TestNg.Driver@3e9b1010]" name="afterDemo" is-config="true" duration-ms="0" started-at="2020-02-11T15:16:43 IST" finished-at="2020-02-11T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterDemo -->
+      </class> <!-- TestNg.Driver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
